@@ -1,0 +1,27 @@
+.img {
+    width:100%;
+    z-index: 0; 
+    opacity: 0.7;
+    filter:  brightness(80%);
+
+}
+ .text-over-img {
+z-index:1;
+font-size: 5.0rem;
+/* margin-top: -100px; */
+ /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    bottom: 10rem;
+    font-family: serif;
+    
+}
+
+.fade-in-image { animation: fadeIn 4s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  

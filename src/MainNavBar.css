@@ -1,0 +1,109 @@
+
+/*FE6FA7
+#FFC2D9
+ffebf2
+
+blue   #91D8F6
+
+1 pink #F8B2BD
+2 pink light #F7E1E5
+3 blue #92D7F5
+4 light blue #D2EBF6
+5 white #F6F6F6
+
+
+
+*/
+/* .nav-link:focus {text-decoration: underline;} */
+/* .navbar-nav .active { text-decoration: underline; background-color: yellow; } */
+/* .navbar-nav .nav-item .nav-link:focus {
+  text-decoration: underline;
+  background-color: yellow;
+} */
+
+
+
+.nav-link{
+  /* text-decoration: underline; */
+  position: relative;
+  
+}
+/*
+Menu letter when hovered
+*/
+.navbar-nav{
+.nav-link:focus, .nav-link:hover {
+color: #F7E1E5;}}
+
+.dropdown-menu{
+  .dropdown-item {
+    color: #92D7F5
+  }
+}
+
+.navbar {
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+}
+
+.nav-link::after{
+    color: white;
+  opacity: 0;
+  transition: all 0.2;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  
+}
+
+.nav-link:hover::after{
+  opacity: 1;
+}
+.background {
+    background-color: #92D7F5;  
+  }
+  
+  /* #test:hover{
+  background-color: #F8B2BD !important
+  }    */
+  
+  .dropdown-menu{
+    .dropdown-item:hover{
+    color: white;
+
+  background-color: #92D7F5;
+    } 
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  /* background-color: #F6F6F6 */
+  
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
+   .nav-item{
+  
+   .nav-link {color: white;
+  font-size: large;
+  font-weight: 600;
+  
+  }
+  
+  }
+  
+  .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    justify-content: space-evenly;}

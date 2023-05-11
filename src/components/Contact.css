@@ -1,0 +1,16 @@
+.width {
+    /* margin: auto; */
+    width: '180px';
+  }
+
+  .img-gallery {
+  overflow: hidden;
+}
+
+.img-gallery img {
+  transition: all 1.3s ease;
+}
+
+.img-gallery:hover img {
+  transform: scale(1.2);
+}

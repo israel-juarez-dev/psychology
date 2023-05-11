@@ -1,0 +1,2 @@
+pink #FE6FA7
+yellow #F8EB9D
