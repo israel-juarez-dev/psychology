@@ -2,8 +2,13 @@ import React from 'react'
 import {GeneralLayout, Row, Col, Card} from '../Layouts/GeneralLayout.js'
 import guySitting from './images/individual/quinton-coetzee-lzlJC_ZY0OI-unsplash.jpg'
 import './terapias.css'
+import bg from '../images/general-bg.svg'
 export default function Individual() {
-  return (<> 
+  return (
+  <div id="intro">
+
+  
+
     <GeneralLayout>
       
       <Row>
@@ -16,11 +21,13 @@ export default function Individual() {
         </Card>
         </Col>
         <Col>
-        <Card>
-
+        {/* <Card> */}
+<div style={{textAlign: "justify", marginTop:'10px'}}  >
         <p>La teragdsagapia individual brinda un espacio seguro y confidencial para la autorreflexión y la expresión, lo cual es esencial para mejorar la salud mental. En la terapia, las personas pueden compartir sus pensamientos y sentimientos abiertamente sin temor a juicios o repercusiones. Este espacio seguro permite a las personas explorar sus preocupaciones y emociones en un entorno de apoyo, lo que puede conducir a una mayor autoconciencia y crecimiento personal [1]. El espacio analítico creado en la terapia individual permite a las personas reflexionar sobre sus experiencias emocionales y patrones de pensamiento, lo que puede ayudarlos a comprender mejor su propio comportamiento y motivaciones [2]. Al proporcionar un entorno de apoyo y sin prejuicios, la terapia individual puede ayudar a las personas a sentirse escuchadas y validadas, lo que puede conducir a una mejor salud mental y bienestar [3].
+
            </p>
-        </Card>
+</div>
+        {/* </Card> */}
         </Col>
         <div className="col-1"></div>
 
@@ -28,11 +35,11 @@ export default function Individual() {
       <Row>
       <div className="col-1"></div>
         <Col>
-        <Card>
+        {/* <Card> */}
 <p>
 La terapia individual también puede ayudar a las personas a identificar y abordar patrones de pensamiento y comportamiento poco saludables. En la terapia, las personas pueden trabajar con un terapeuta capacitado para identificar patrones de pensamiento y comportamientos negativos que pueden estar contribuyendo a sus problemas de salud mental. Con la ayuda de un terapeuta, las personas pueden aprender nuevos mecanismos y estrategias de afrontamiento para manejar sus pensamientos y emociones de una manera más saludable [4]. A través de la terapia individual, las personas pueden adquirir habilidades para enfrentar los desafíos de la vida y mejorar su salud mental en general [5].
 </p>
-        </Card>
+        {/* </Card> */}
         </Col>
         <Col>
         <Card>
@@ -84,6 +91,8 @@ El inicio de las relaciones interpersonales. (n.d.) Retrieved May 10, 2023, from
 
       </Row>
     </GeneralLayout>
-  </>
+    </div>
+ 
+  
   )
 }

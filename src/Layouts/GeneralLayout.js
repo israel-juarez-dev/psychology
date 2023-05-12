@@ -6,7 +6,7 @@ import React from 'react'
 
 export const GeneralLayout = ({children}) => {
   return (
-    <div  className='container-fluid  'style={{marginTop:'100px'}}> {children}</div>  )
+    <div  className='container-fluid  'style={{paddingTop:'50px'}}> {children}</div>  )
 }
 export const Col = ({children}) => {
   return (
@@ -18,9 +18,9 @@ export const Row = ({children}) => {
 }
 export const Card = ({children}) => {
   return (
-    <div class="card">
-  <div class="card-body" style={{ textAlign: 'justify',
-  textJustify: 'inter-word'}}>
+    <div class="card ">
+  <div class="card-body  " style={{ textAlign: 'justify',
+  textJustify: 'inter-word', padding:"0px" }}>
    {children}
   </div>
 </div>  )
